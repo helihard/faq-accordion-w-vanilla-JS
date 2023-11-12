@@ -1,0 +1,29 @@
+h1 {
+  margin: 0;
+  color: var(--verydarkgrayishblue);
+  font-size: 30px;
+}
+
+p {
+  margin: 0;
+  color: var(--darkgrayishblue);
+  font-size: 12.5px;
+  line-height: 1.5;
+  border-bottom: 1px solid var(--lightgrayishblue);
+  padding: 17px 0;
+}
+
+button {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: var(--darkgrayishblue);
+  font-size: 13px;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
