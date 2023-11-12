@@ -10,13 +10,17 @@ p {
   font-size: 12.5px;
   line-height: 1.5;
   border-bottom: 1px solid var(--lightgrayishblue);
-  padding: 17px 0;
+  padding: 0 0 17px;
 }
 
 button {
   font-family: 'Kumbh Sans', sans-serif;
   color: var(--darkgrayishblue);
   font-size: 13px;
+}
+
+.answer {
+  display: none;
 }
 
 .attribution { 

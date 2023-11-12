@@ -1,4 +1,4 @@
-@media (max-width: 699px) {
+@media (max-width: 799px) {
   #bg-pattern-desktop {
     display: none;
   }
@@ -12,7 +12,7 @@
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   #illustration-woman-mobile {
     display: none;
   }
@@ -22,16 +22,17 @@
   }
 
   #wrapper {
-    display: flex;
-    padding-top: 120px;
+    padding-top: 50px;
     padding-left: 200px;
     justify-content: flex-start;
+    height: 100vh;
   }
 
   #container {
     width: 800px;
     min-width: 800px;
     display: flex;
+    align-self: flex-start;
     padding-left: 0;
   }
 
@@ -83,5 +84,11 @@
 
   p {
     font-size: 12px;
+  }
+
+  button:after {
+    content: url("/images/icon-arrow-down.svg");
+    position: absolute;
+    right: 110px;
   }
 }
