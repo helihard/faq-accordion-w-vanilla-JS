@@ -13,51 +13,50 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Kumbh Sans', sans-serif;
+  background-image: linear-gradient(var(--softviolet), var(--softblue));
 }
 
 #wrapper {
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(var(--softviolet), var(--softblue));
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 150px;
+  padding-top: 120px;
+  justify-content: center;
 }
 
 #container {
-  position: relative;
   background-color: white;
-  width: 330px;
+  width: 280px;
+  height: 500px;
   border-radius: 20px;
-  overflow: hidden;
   box-shadow: 0 5px 5px rgb(29, 30, 53, 0.2);
+  padding: 0 27px 35px;
+  position: relative;
 }
 
 #img-container {
   display: flex;
   justify-content: center;
-  position:relative;
 }
 
-#img-container img {
-  width: 75%;
+#bg-pattern-mobile {
+  width: 80%;
   height: auto;
 }
 
-#illustration-woman {
+#illustration-woman-mobile {
   position: absolute;
   z-index: 1000;
-  width: 65%;
+  width: 220px;
   height: auto;
-  top: 40px;
+  top: 20px;
 }
 
 #accordion-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px 27px 35px;
+  padding-top: 30px;
 }
 
 button {
