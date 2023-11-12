@@ -14,11 +14,12 @@ body {
   box-sizing: border-box;
   font-family: 'Kumbh Sans', sans-serif;
   background-image: linear-gradient(var(--softviolet), var(--softblue));
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
 }
 
 #wrapper {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   padding-top: 120px;
   justify-content: center;
@@ -27,7 +28,6 @@ body {
 #container {
   background-color: white;
   width: 280px;
-  height: 500px;
   border-radius: 20px;
   box-shadow: 0 5px 5px rgb(29, 30, 53, 0.2);
   padding: 0 27px 35px;
