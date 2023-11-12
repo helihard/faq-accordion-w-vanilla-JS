@@ -39,3 +39,13 @@ body {
   padding: 0 27px 35px;
 }
 
+button {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid var(--lightgrayishblue);
+  padding: 17px 0;
+  text-align: left;
+}
+
