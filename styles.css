@@ -22,7 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 150px;
 }
 
 #container {
@@ -31,13 +31,33 @@ body {
   width: 330px;
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: 0 5px 5px rgb(29, 30, 53, 0.2);
+}
+
+#img-container {
+  display: flex;
+  justify-content: center;
+  position:relative;
+}
+
+#img-container img {
+  width: 75%;
+  height: auto;
+}
+
+#illustration-woman {
+  position: absolute;
+  z-index: 1000;
+  width: 65%;
+  height: auto;
+  top: 40px;
 }
 
 #accordion-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 27px 35px;
+  padding: 25px 27px 35px;
 }
 
 button {
