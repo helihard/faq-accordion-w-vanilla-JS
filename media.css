@@ -86,10 +86,6 @@
   }
 
   .attribution {
-    width: 887px;
-    max-width: 887px;
-    position: absolute;
-    left: 100px;
-    top: 480px;
+    display: none;
   }
 }
