@@ -28,7 +28,7 @@ body {
 
 #container {
   background-color: white;
-  width: 280px;
+  width: 275px;
   border-radius: 20px;
   box-shadow: 0 5px 5px rgb(29, 30, 53, 0.2);
   padding: 0 27px 35px;
@@ -48,7 +48,7 @@ body {
 #illustration-woman-mobile {
   position: absolute;
   z-index: 1000;
-  width: 220px;
+  width: 218px;
   height: auto;
   top: 20px;
 }
@@ -57,7 +57,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 25px;
+  padding-bottom: 10px;
 }
 
 button {
@@ -66,7 +67,7 @@ button {
   width: 100%;
   background-color: white;
   border-bottom: 1px solid var(--lightgrayishblue);
-  padding: 17px 0;
+  padding: 16px 0;
   text-align: left;
   transition: .1s ease-in-out;
 }
@@ -78,17 +79,32 @@ button {
 .active {
   font-weight: 700;
   color: var(--verydarkgrayishblue);
+  padding-bottom: 10px;
   border-bottom: 1px solid transparent;
 }
 
 button:after {
   content: url("/images/icon-arrow-down.svg");
   position: absolute;
-  right: 30px;
+  right: 26px;
 }
 
 button.transform:after {
   content: url("/images/icon-arrow-down.svg");
   transform: rotate(180deg);
+}
+
+
+/* Hide images on smaller screens */
+#bg-pattern-desktop {
+  display: none;
+}
+
+#illustration-woman-desktop {
+  display: none;
+}
+
+#illustration-box-desktop {
+  display: none;
 }
 

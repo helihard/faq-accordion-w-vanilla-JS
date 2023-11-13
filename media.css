@@ -1,18 +1,6 @@
-@media (max-width: 799px) {
-  #bg-pattern-desktop {
-    display: none;
-  }
+@media (min-width: 1055px) {
 
-  #illustration-woman-desktop {
-    display: none;
-  }
-
-  #illustration-box-desktop {
-    display: none;
-  }
-}
-
-@media (min-width: 800px) {
+  /* Hide images on larger screens */
   #illustration-woman-mobile {
     display: none;
   }
@@ -23,17 +11,22 @@
 
   #wrapper {
     padding-top: 50px;
-    padding-left: 200px;
+    padding-left: 100px;
     justify-content: flex-start;
     height: 100vh;
   }
 
   #container {
-    width: 800px;
-    min-width: 800px;
+    width: 860px;
+    min-width: 860px;
     display: flex;
     align-self: flex-start;
     padding-left: 0;
+  }
+
+  .attribution {
+    width: 860px;
+    min-width: 860px;
   }
 
   #img-container {
@@ -42,32 +35,35 @@
     left: 0;
     justify-content: flex-start;
     overflow: hidden;
-    width: 350px;
+    width: 50%;
   }
 
   #bg-pattern-desktop {
-    width: 720px;
+    display: block;
+    width: 900px;
     height: auto;
     position: relative;
-    left: -450px;
-    top: -220px;
+    left: -530px;
+    top: -275px;
   }
 
   #illustration-woman-desktop {
+    display: block;
     position: absolute;
     z-index: 2000;
-    left: -50px;
-    top: 45px;
-    width: 340px;
+    left: -80px;
+    top: 65px;
+    width: 450px;
     height: auto;
   }
 
   #illustration-box-desktop {
+    display: block;
     position: absolute;
     z-index: 3000;
-    top: 270px;
-    left: 142px;
-    width: 120px;
+    top: 245px;
+    left: 12px;
+    width: 180px;
     height: auto;
   }
 
@@ -78,10 +74,6 @@
     padding: 55px 65px 40px 0;
   }
 
-  h1 {
-    margin-bottom: 20px;
-  }
-
   p {
     font-size: 12px;
   }
@@ -89,6 +81,6 @@
   button:after {
     content: url("/images/icon-arrow-down.svg");
     position: absolute;
-    right: 110px;
+    right: 107px;
   }
 }
