@@ -14,6 +14,7 @@
     padding-left: 100px;
     justify-content: flex-start;
     height: 100vh;
+    overflow: hidden;
   }
 
   #container {
@@ -82,5 +83,13 @@
     content: url("/images/icon-arrow-down.svg");
     position: absolute;
     right: 107px;
+  }
+
+  .attribution {
+    width: 887px;
+    max-width: 887px;
+    position: absolute;
+    left: 100px;
+    top: 480px;
   }
 }
