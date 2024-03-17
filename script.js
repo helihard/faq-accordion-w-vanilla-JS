@@ -1,12 +1,13 @@
 let buttons = document.querySelectorAll("button");
 
+const smallerScreen = window.matchMedia("(max-width: 375px)");
 
 for(let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("mouseover", () => {
     buttons[i].classList.add("hover");
   });
 
-  buttons[i].addEventListener("mouseout", () => {
+  buttons[i].addEventListener("mouseleave", () => {
     buttons[i].classList.remove("hover");
   });
 
@@ -19,6 +20,9 @@ for(let i = 0; i < buttons.length; i++) {
       answer.style.display = "none";
       buttons[i].classList.remove("active");
       buttons[i].classList.remove("transform");
+      if (smallerScreen.matches) {
+        buttons[i].classList.remove("hover");
+      }
     } else {
       answer.style.display = "block";
     }    
